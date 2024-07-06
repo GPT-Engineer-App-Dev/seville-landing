@@ -7,7 +7,7 @@ const Index = () => {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[60vh] flex items-center justify-center">
-        <img src="/placeholder.svg" alt="Seville Cityscape" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/images/seville-cityscape.jpg" alt="Seville Cityscape" className="absolute inset-0 w-full h-full object-cover" />
         <div className="relative z-10 text-center text-white">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Welcome to Seville</h1>
           <p className="text-xl md:text-2xl mb-8">Explore the heart of Andalusia</p>
@@ -29,7 +29,7 @@ const Index = () => {
               </p>
             </div>
             <div className="md:w-1/2">
-              <img src="/placeholder.svg" alt="Seville Cathedral" className="rounded-lg shadow-lg w-full h-[300px] object-cover" />
+              <img src="/images/seville-cathedral.jpg" alt="Seville Cathedral" className="rounded-lg shadow-lg w-full h-[300px] object-cover" />
             </div>
           </div>
         </div>
